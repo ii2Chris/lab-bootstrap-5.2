@@ -1,1 +1,95 @@
-/* Add custom css styles here */
+body {
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-content img {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Header Section */
+
+header {
+    height: 400px;
+    background-image: url("../images/coffee-biscuits.jpg");
+    background-size: cover;
+    background-position: center;
+
+    /* Align text to the center */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Cookies Section */
+
+.row {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+/* About me Section */
+.about-us {
+    padding: 20px;
+    background-color: #ebedf1;
+}
+
+.about-us h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+
+    justify-content: center;
+    text-align: center;
+
+    font-size: 25px;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.about-content img {
+    width: 20%;
+    max-width: 150px;
+}
+
+.about-content p {
+    flex: 1;
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Footer Section */
+
+footer {
+    height: 200px;
+    background-color: #9645f8;
+    background-size: cover;
+    background-position: center;
+
+    /* Align text to the center */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;    
+}
