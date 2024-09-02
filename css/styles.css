@@ -45,12 +45,10 @@ header {
 
 .about-us h2 {
     margin-bottom: 15px;
-    font-size: 24px;
+    font-size: 25px;
 
     justify-content: center;
     text-align: center;
-
-    font-size: 25px;
 }
 
 .about-content {

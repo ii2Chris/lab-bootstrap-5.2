@@ -36,3 +36,5 @@ Finished index.html. It represents the image pretty accurately, I can go back an
     - Check to see if the aboutme section represents a bootstrap layout
     - Check the header function
     - Try to figure out the alternating.html alternating thingy.
+
+    I finished all the check boxes. I just need to refine some of what I learnt. Like bootgrid for html was a bit confusing, so i need to udnerstand it better. but I finished the homework!
