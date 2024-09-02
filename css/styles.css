@@ -3,17 +3,6 @@ body {
     font-size: 20px;
 }
 
-@media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;
-    }
-
-    .about-content img {
-        width: 50%;
-        margin-bottom: 15px;
-    }
-}
-
 /* Header Section */
 
 header {
@@ -44,6 +33,10 @@ header {
     text-align: center;
 }
 
+.cookie img {
+    border-radius: 50%;
+}
+
 /* About me Section */
 .about-us {
     padding: 20px;
@@ -69,12 +62,7 @@ header {
 .about-content img {
     width: 20%;
     max-width: 150px;
-}
-
-.about-content p {
-    flex: 1;
-    margin: 0;
-    font-size: 14px;
+    border-radius: 50%;
 }
 
 /* Footer Section */
